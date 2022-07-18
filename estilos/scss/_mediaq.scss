@@ -1,0 +1,34 @@
+@media screen and (max-width: 425px){
+    .logoMenu {
+        display: block;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        .titulo {
+            display: block;
+            align-items: center;
+        }
+        
+    .menu li {
+        display: block;
+    }
+    
+
+}
+.footer{
+    display: block;
+}
+#brand {
+    margin-top: 10px;
+}
+.imagFondo{
+    p{
+        font-size: 15px;
+    }
+}
+
+.formularioContacto {
+    margin-left: 0%;
+}
+}

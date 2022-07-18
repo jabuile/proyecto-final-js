@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    background-color: white;
+    height: min-content;
+    text-align: -webkit-center;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+
+    * {
+        font-family: Arial, sans-serif;
+    }
+
+    h5 {
+        font-size: 20px;
+        color: rgb(45, 43, 109);
+    }
+
+    .contacto {
+        font-size: 15px;
+    }
+
+    .ubicación {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+}

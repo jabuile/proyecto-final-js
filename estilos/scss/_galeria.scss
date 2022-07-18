@@ -1,0 +1,45 @@
+// .galeria {
+//     display: flex;
+//     justify-content: space-evenly;
+//     flex-flow: wrap;
+//     .imgGaleria {
+//         img{
+//         height: 200px;
+//         width: 200px;
+//         border-radius: 50px;
+//         :hover {
+//             transform: scale(1,5);
+//             transition: 1s;
+//             position: absolute;
+//         }}
+//     }
+// }
+.galeria {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    
+    .imgGaleria {
+        border-radius: 50px;
+        
+     
+           
+        :hover {
+            transform: scale(1.5);
+            transition: all 0.4s ease-out;
+-webkit-transition: all 0.4s ease-out;
+-moz-transition: all 0.4s ease-out;
+-o-transition: all 0.4s ease-out;
+            
+            
+        }
+    }
+}
+.galeria{
+img {
+    border-radius: 50px;
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+}
+}
